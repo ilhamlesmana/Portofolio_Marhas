@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* Token desain: --color-brand otomatis menghasilkan bg-brand, text-brand,
+dst. */
+@theme {
+--font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+--color-brand: #2563eb; /* GANTI dengan warna favoritmu */
+--color-brand-dark: #1d4ed8;
+--color-brand-soft: #eff6ff;
+--color-ink: #0f172a;
+--color-muted: #64748b;
+}
+html {
+scroll-behavior: smooth; /* gulir halus saat menu diklik */
+scroll-padding-top: 5rem; /* judul section tidak tertutup navbar */
+}
+body {
+@apply bg-white text-ink antialiased;
+}
